@@ -26,3 +26,9 @@ def say_hi(*names, greeting='Hi', capitalized=False):
         if capitalized:
             name = name.capitalize()
         print(f'{greeting}, {name}!')
+    
+print("this senstence_1 has been excutated")
+print(f"in this module, the __name__ of the module is {__name__}")
+if __name__ == '__main__' :       
+    print("this senstence_2 has been excutated")
+    
